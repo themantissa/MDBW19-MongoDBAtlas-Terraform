@@ -47,7 +47,7 @@ resource "mongodbatlas_cluster" "cluster" {
   provider_name         	= "AWS"
   disk_size_gb			= 100
   provider_disk_iops		= 320
-  provider_instance_size_name   = "M40"
+  provider_instance_size_name   = "M30"
   provider_backup_enabled 	= true
 
   replication_specs {
